@@ -31,7 +31,7 @@ git commande
 	
 	git branch [nomdebranch] (crée une branche dans ton local)
 	
-	git checkout [nomdebranch] (se place dans la branch du meme nom)
+	git switch [nomdebranch] (se place dans la branch du meme nom)
 	
 	git remote add [le nom du remote] [url] (crée un remote pour facilité les push vers un repo)
 	  git remote -v (te montre la liste de t'est remote)
