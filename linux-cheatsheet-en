@@ -5,6 +5,7 @@ File System Navigation:
     pwd: Prints the path of the current directory.
     mkdir [directory_name]: Creates a new directory.
     rm [file_name]: Deletes a file.
+        -rf : Deletes all child of this file or directory
     rmdir [directory_name]: Deletes an empty directory.
     cp [source] [destination]: Copies files or directories.
     mv [source] [destination]: Moves or renames files or directories.
@@ -14,7 +15,6 @@ File Manipulation:
 
     touch [file_name]: Creates a new empty file.
     nano [file_name]: Opens the file in the Nano text editor.
-    vim [file_name]: Opens the file in the Vim text editor (more advanced than Nano).
 
 Permission Management:
 
@@ -39,6 +39,8 @@ Networking:
     ping [ip_address_or_domain_name]: Checks network connectivity.
     ifconfig: Displays information about network interfaces.
     ssh [user@ip_address]: Connects to a remote machine via SSH.
+        -p : Add a port to the adress
+	    -l : Login name
     scp [file] [user@ip_address:destination]: Copies files via SSH.
 
 Help and Documentation:
