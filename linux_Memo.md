@@ -22,6 +22,7 @@ Find (commande pour trouver un document ou dossier)
    	-and/-or/not(doit remplir les deux/une des deux/aucune condition)
    	
 rmdir(suprime un dossir)
+
 rm -rf (suprime tout se que lui indit "exemple rayon de la mort")
 
 ssh(se connect en remote)
@@ -29,7 +30,7 @@ ssh(se connect en remote)
 	-R(adresse)
 	-W(adresse:port? pas sure)
 	-l(nom de login)
-	-
 
+mv(deplace ou renome le fichier)
 	
 		  
