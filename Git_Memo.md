@@ -36,6 +36,4 @@ git commande
 	git remote add [le nom du remote] [url] (crée un remote pour facilité les push vers un repo)
 	  git remote -v (te montre la liste de t'est remote)
 
-    git push [origine ou ...] [la branche actuel] envoit les donnée depuis le staging vers le repo git hub
-
-    git config user@name/email permet de config le nom et le mail
+    git push [origine ou ...] [la branche actuel]
