@@ -18,7 +18,10 @@
     - `?pattern` Search backward for the previous occurrence of pattern.
     - `q` Quit less.
 - `head [file_name]` Display the first few lines of a file.
+    - `-n [num]` Display the first [num] lines of the file.
 - `tail [file_name]` Display the last few lines of a file.
+    - `-n [num]` Display the last [num] lines of the file.
+    - `-f` Output appended data as the file grows (tail -f
 - `grep [pattern] [file_name]` Search for a pattern in a file.
 
 ### File Manipulation
