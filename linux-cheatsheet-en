@@ -37,6 +37,7 @@
     - `-u user` Display processes owned by a specific user.
     - `aux` Display a detailed listing of all processes.
 - `kill [PID]` Kills a process using its Process ID (PID).
+    - `9` Forcefully terminate the process.
 - `top` Displays running processes and their resources.
     - `q` Quit top.
     - `k` Kill a process.
@@ -45,6 +46,8 @@
     - `P` Sort by CPU usage.
     - `M` Sort by memory usage.
     - `R` Reverse the sorting order.
+- `pgrep pattern` This command is used to search for processes by name and other attributes. 
+    - `-l` Display process names as well as PIDs.
 
 ### Archives and Compression
 
