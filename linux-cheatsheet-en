@@ -2,6 +2,12 @@
 
 ### File System Navigation  
 - `ls` Lists files and directories in the current directory.
+    - `-l` Long listing format, displaying additional information about files.
+    - `-a` Include hidden files (those starting with a dot).
+    - `-h` Display file sizes in human-readable format.
+    - `-t` Sort files by modification time.
+    - `-r` Reverse the order of the sort.
+    - `-R` Recursively list subdirectories encountered.
 - `cd [directory_name]` Changes the working directory.
 - `pwd` Prints the path of the current directory.
 - `cat [file_name]` Display file contents.
