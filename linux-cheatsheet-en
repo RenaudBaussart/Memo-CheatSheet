@@ -12,6 +12,11 @@
 - `pwd` Prints the path of the current directory.
 - `cat [file_name]` Display file contents.
 - `less [file_name]` View file contents one page at a time.
+    - `Spacebar` Move forward one page.
+    - `b` Move backward one page.
+    - `/pattern` Search forward for the next occurrence of pattern.
+    - `?pattern` Search backward for the previous occurrence of pattern.
+    - `q` Quit less.
 - `head [file_name]` Display the first few lines of a file.
 - `tail [file_name]` Display the last few lines of a file.
 - `grep [pattern] [file_name]` Search for a pattern in a file.
