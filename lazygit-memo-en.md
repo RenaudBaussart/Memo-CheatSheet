@@ -1,9 +1,12 @@
-shortcut
-P :push
-p :pull
-c :commit
-C :commit using git editor
-d :discard a selected staged
-CTRL-r :switch to a recent repo
-m :merge opt
-? :keybind list
+## global
+- `arrow up /down`change line selected (dont go out of the section).
+- `arrow left/right` chage selected section.
+- `p` pull from the defined upstream.
+- `P` push at the defined upstream.
+- `:` open a command line to do a custom command.
+- `R` Refrech the TUI(terminal user inteface).
+- `z` undo last action.
+- `q` quit lazygit.
+- `esc`cancel pending action.
+- *(custom one)*`c-v` do a convetional commit.
+- *(custom one)*`f2` push to a specific repositori.
