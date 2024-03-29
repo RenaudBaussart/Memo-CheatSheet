@@ -23,6 +23,10 @@
     - `-n [num]` Display the last [num] lines of the file.
     - `-f` Output appended data as the file grows (tail -f
 - `grep [pattern] [file_name]` Search for a pattern in a file.
+    - `-i` Ignore case distinctions in both the pattern and input files.
+    - `-v` Invert the match, selecting non-matching lines.
+    - `-n` Prefix each line of output with the 1-based line number within its input file.
+    - `-r` Recursively search subdirectories listed.
 
 ### File Manipulation
 
