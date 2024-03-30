@@ -21,4 +21,7 @@
 `git remote add <name> <repository_url>` Add a Remote Repository  
 `git remote -v` List Remote Repositories  
 `git remote remove <name>` Remove a Remote Repository  
-
+### Undoing Changes:
+`git reset HEAD~1` Undo Last Commit (Keep Changes)  
+`git checkout -- <file(s)>` Discard Changes in Working Directory  
+`git reset --hard HEAD~1` Undo Last Commit and Changes  
