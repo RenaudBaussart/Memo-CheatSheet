@@ -1,5 +1,6 @@
 
 <h1 align="center">cheatsheet repositories</h1>
+<!---badges section-->
 <p> 
     <img src='https://img.shields.io/badge/Mail-Renaud.Baussart%40proton.me-purple'>
     <a href='https://www.linkedin.com/in/renaud-baussart-278b362bb/'>
@@ -12,6 +13,7 @@
         <img src='https://img.shields.io/badge/My%20cheat%20sheet-lightyellow'>
         </a>
 </p>
+<!---end of the badges section-->
 
 ### Built With
 
