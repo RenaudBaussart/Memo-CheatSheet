@@ -13,3 +13,17 @@
    ```
    git add <file(s)>
    ```
+4. **Commit Changes:**
+   ```
+   git commit -m "Commit message"
+   ```
+
+5. **Push Changes to Remote Repository:**
+   ```
+   git push origin <branch_name>
+   ```
+
+6. **Pull Changes from Remote Repository:**
+   ```
+   git pull origin <branch_name>
+   ```
