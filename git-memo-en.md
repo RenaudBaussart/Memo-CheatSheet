@@ -13,3 +13,8 @@
 `git switch -b <branch_name>` Create a New Branch and Switch to it  
 `git merge <branch_name>` Merge Branches into the current branch  
 `git branch -d <branch_name>` Delete a Branch  
+### Logging and History:
+`git log` View Commit History  
+`git show <commit_id>` View Changes Made in a Commit  
+`git diff <branch1> <branch2>`View Differences Between Branches  
+
