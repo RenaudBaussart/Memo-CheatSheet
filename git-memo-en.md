@@ -27,3 +27,7 @@
    ```
    git pull origin <branch_name>
    ```
+7. **Check Repository Status:**
+   ```
+   git status
+   ```
