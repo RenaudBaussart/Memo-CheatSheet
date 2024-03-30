@@ -17,4 +17,8 @@
 `git log` View Commit History  
 `git show <commit_id>` View Changes Made in a Commit  
 `git diff <branch1> <branch2>`View Differences Between Branches  
+### Remote Repositories:
+`git remote add <name> <repository_url>` Add a Remote Repository  
+`git remote -v` List Remote Repositories  
+`git remote remove <name>` Remove a Remote Repository  
 
