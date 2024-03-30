@@ -109,6 +109,3 @@ Line 1 <br /> Line 2
 
 - [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
 - [GitHub Markdown](https://guides.github.com/features/mastering-markdown/)
-```
-
-You can copy and paste this Markdown code into a `.md` file for your cheatsheet.
