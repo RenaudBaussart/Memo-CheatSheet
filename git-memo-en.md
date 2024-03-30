@@ -25,3 +25,10 @@
 `git reset HEAD~1` Undo Last Commit (Keep Changes)  
 `git checkout -- <file(s)>` Discard Changes in Working Directory  
 `git reset --hard HEAD~1` Undo Last Commit and Changes  
+### Miscellaneous:
+to Ignore Files Create a `.gitignore` file and list files/directories to be ignored.  
+`git config --list` View Git Configuration  
+`git diff > patch_name.patch`  
+`git apply patch_name.patch` Create and Apply Patch  
+`git stash` Stash Changes  
+`git stash apply` Apply Stashed Changes  
