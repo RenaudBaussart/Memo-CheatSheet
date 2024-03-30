@@ -15,6 +15,9 @@
 </p>
 <!---end of the badges section-->
 
+### Purpose of the repositories 
+the purpose of this repositorie is to stored and share my cheatsheet.feel free to dl the file and reuse it.
+
 ### Built With
 
 - ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
@@ -22,7 +25,7 @@
 - ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ## Author
-RenaudBaussart
+Renaud Baussart
 ## License
 
-Distributed under the Apache License. `LICENSE` See for more information.
+Distributed under the Apache License. See **[LICENSE](/LICENSE)** for more information.
