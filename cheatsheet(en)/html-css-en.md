@@ -70,3 +70,19 @@
 - `src`: Source (e.g., for images)
 - `alt`: Alternate text for images
 - `title`: Tooltip text
+
+## Form Elements
+
+```html
+<form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+    <input type="submit" value="Submit">
+</form>
+```
+
+```
