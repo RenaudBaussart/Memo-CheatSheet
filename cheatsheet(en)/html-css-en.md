@@ -44,3 +44,20 @@
 </body>
 </html>
 ```
+## Common HTML Tags
+
+- `<h1>` - `<h6>`: Headings
+- `<p>`: Paragraph
+- `<a>`: Anchor (Link)
+- `<img>`: Image
+- `<div>`: Division
+- `<span>`: Inline Division
+- `<ul>`: Unordered List
+- `<ol>`: Ordered List
+- `<li>`: List Item
+- `<table>`: Table
+- `<tr>`: Table Row
+- `<td>`: Table Data
+- `<form>`: Form
+- `<input>`: Input
+- `<textarea>`: Textarea
