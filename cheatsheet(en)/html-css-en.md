@@ -61,3 +61,12 @@
 - `<form>`: Form
 - `<input>`: Input
 - `<textarea>`: Textarea
+
+## Common HTML Attributes
+
+- `id`: Unique identifier
+- `class`: Class name for styling
+- `href`: Hyperlink reference
+- `src`: Source (e.g., for images)
+- `alt`: Alternate text for images
+- `title`: Tooltip text
