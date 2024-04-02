@@ -87,3 +87,8 @@
 - `ssh [utilisateur@adresse_ip]` : Se connecte à une machine distante via SSH.
     - `-p` : Ajoute un port à l'adresse.
 	- `-l` : Nom d'utilisateur de connexion.
+
+### Help and Documentation
+
+- `man [command]` Displays the manual for a specific command.
+    - `--help` Add this to a command to display quick help.
