@@ -31,4 +31,13 @@ to Ignore Files Create a `.gitignore` file and list files/directories to be igno
 `git diff > patch_name.patch`  
 `git apply patch_name.patch` Create and Apply Patch  
 `git stash` Stash Changes  
-`git stash apply` Apply Stashed Changes  
+`git stash apply` Apply Stashed Changes  ****what to do to when we did sometiong wrong****
+```
+git reflog
+# you will see a list of every thing you've
+# done in git, across all branches!
+# each one has an index HEAD@{index}
+# find the one before you broke everything
+git reset HEAD@{index}
+# magic time machine
+```
