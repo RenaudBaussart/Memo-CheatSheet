@@ -16,9 +16,25 @@
 `git branch -d <branch_name>` - Supprimer une branche  
 
 ## Journalisation et Historique :
-`git log` - Afficher l'historique des commits  
-`git show <commit_id>` - Voir les modifications effectuées dans un commit  
-`git diff <branch1> <branch2>` - Voir les différences entre les branches  
+- `git log` - Afficher l'historique des commits  
+    - `--oneline` : Affiche chaque commit sur une seule ligne.
+    - `--graph` : Affiche une représentation graphique de l'historique des commits.  
+    - `--decorate` : Affiche les noms de branches et les étiquettes associées à chaque commit.  
+    - `--author=<pattern>` : Filtre les commits pour afficher uniquement ceux de l'auteur spécifié.  
+    - `--since=<date>` : Filtre les commits pour afficher ceux effectués après une certaine date.  
+    - `--until=<date>` : Filtre les commits pour afficher ceux effectués avant une certaine date.  
+    - `--grep=<pattern>` : Filtre les commits pour afficher ceux dont le message de commit contient le motif spécifié.  
+    - `-<n>` ou `--max-count=<n>` : Limite le nombre de commits affichés à `<n>`.  
+- `git diff <branch1> <branch2>` - Voir les différences entre les branches
+    - `--stat` : Affiche un résumé statistique des modifications apportées par le commit.
+    - `--patch` ou `-p` : Affiche les différences entre les fichiers du commit et les fichiers de la version précédente.
+    - `-name-only` : Affiche uniquement les noms des fichiers modifiés par le commit.
+    - `--name-status` : Affiche les noms des fichiers modifiés et le type de modification (ajouté, modifié, supprimé, etc.).
+    - `--decorate` : Affiche les noms de branches et les étiquettes associées au commit.
+    - `--oneline` : Affiche le commit sur une seule ligne, avec un résumé du message de commit.
+- `git show <commit_id>` - Voir les modifications effectuées dans un commit  
+- `git diff`montre les difference exacten entre le active dir et la staging areas  
+    - `--staged` la meme que diff mais entre la staging et le dernier commit
 
 ## Dépôts distants :
 `git remote add <name> <repository_url>` - Ajouter un dépôt distant  
