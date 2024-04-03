@@ -29,6 +29,8 @@
 `git reset HEAD~1` - Annuler le dernier commit (en conservant les modifications)  
 `git checkout -- <file(s)>` - Annuler les modifications dans le répertoire de travail  
 `git reset --hard HEAD~1` - Annuler le dernier commit et les modifications  
+`git commit --amend` change le message du dernier commit
+`git revert [numero du commit]` revien aux commit indique    
 
 ## Divers :
 Pour ignorer des fichiers, créez un fichier `.gitignore` et répertoriez les fichiers/dossiers à ignorer.  
