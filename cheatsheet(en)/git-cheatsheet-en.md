@@ -14,10 +14,10 @@
 `git merge <branch_name>` Merge Branches into the current branch  
 `git branch -d <branch_name>` Delete a Branch  
 ### Logging and History:
-`git log` View Commit History  
-`git show <commit_id>` View Changes Made in a Commit  
-`git diff <branch1> <branch2>`View Differences Between Branches  
-`git diff`show the exact diff between active directory and the staging area  
+- `git log` View Commit History
+- `git show <commit_id>` View Changes Made in a Commit  
+- `git diff <branch1> <branch2>`View Differences Between Branches  
+- `git diff`show the exact diff between active directory and the staging area  
     - `--staged` same as diff but for staging and last commit
 ### Remote Repositories:
 `git remote add <name> <repository_url>` Add a Remote Repository  
