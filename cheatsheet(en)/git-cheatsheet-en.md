@@ -24,7 +24,7 @@
 ### Undoing Changes:
 `git reset HEAD~1` Undo Last Commit (Keep Changes)  
 `git checkout -- <file(s)>` Discard Changes in Working Directory  
-`git reset --hard HEAD~1` Undo Last Commit and Changes  
+`git reset --hard HEAD~1` Undo Last Commit and Changes 
 ### Miscellaneous:
 to Ignore Files Create a `.gitignore` file and list files/directories to be ignored.  
 `git config --list` View Git Configuration  
