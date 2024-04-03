@@ -36,4 +36,15 @@ Pour ignorer des fichiers, créez un fichier `.gitignore` et répertoriez les fi
 `git diff > patch_name.patch`  
 `git apply patch_name.patch` - Créer et appliquer un patch  
 `git stash` - Mettre en réserve des modifications  
-`git stash apply` - Appliquer les modifications mises en réserve  
+`git stash apply` - Appliquer les modifications mises en réserve  ****que faire quand on a fait une bourde****
+
+****que faire quand on a fait une bourde****
+```
+git reflog
+# tu vas voir la list des truc que tu
+# a fait dans git sur tout t'est branch
+# chacune a un index HEAD@{index}
+# trouve celuit avant que tu ais casser le code
+git reset HEAD@{index}
+# machine a remonter dans le temps magic
+```
