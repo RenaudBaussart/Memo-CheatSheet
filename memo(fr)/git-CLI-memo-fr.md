@@ -116,7 +116,7 @@
 
     Options | Description 
     --- | --- 
-    `-a`, ` --all` | Inclure les workflows désactivés
+    `-a` ` --all` | Inclure les workflows désactivés
 
 -`gh workflow view [<workflow-id> | <workflow-name> | <filename>] [flags]` : Voir une résumé d'un workflow
 - `gh workflow run [<workflow-id> | <workflow-name>]` : éxecute un workflow
