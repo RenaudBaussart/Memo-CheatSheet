@@ -1,42 +1,16 @@
-## Feuille de triche
+## memo
 
 | Commande | Fonction | Exemple |
 | --- | --- | --- |
 | **Configuration & Initialisation** | | |
-| `git init` | Initialise un dépôt Git dans le dossier courant | |
-| `git clone [url]` | Récupère l'entièreté d'un dépôt distant via URL | `git clone git@github.com:Simplon-hdf/cheats-sheets-git-flow.git` |
-| **Index** | | |
-| `git status` | Affiche les fichiers modifiés dans le répertoire de travail | |
-| `git add [fichier]` | Déplace un fichier dans la zone de stage | `git add example.md` |
-| `git reset [fichier]` | Enlève un fichier de l'index tout en gardant les changements dans le répertoire de travail | `git reset example.md` |
-| `git diff` | Différence des changements en dehors de l'index | |
-| `git diff --staged` | Différence entre l'index et le dernier commit | |
-| `git diff [branche locale] [branche distante]` | Compare les différences entre une branche locale et distante | `git diff develop main` |
-| `git commit -m [message]` | Effectue le commit contenant les fichiers dans l'index | `git commit -m "Renamed example.md"` |
+| `git flow init` | Initialise un dossier .git vide dans le dépôt courant et bascule l'utilisateur sur la branche develop | |
 | **Branches** | | |
-| `git branch -av` | Liste les branches. Un * apparaîtra à côté de la branche actuelle | |
-| `git branch [branche]` | Crée une nouvelle branche | `git branch main` |
-| `git switch [branche]` | Change la branche courante | `git switch develop` |
-| `git branch -d [branche]` | Supprime la branche locale | `git branch -d develop` |
-| `git checkout --track` | Crée une nouvelle branche locale à partir d'une branche distante, et la suit | |
-| `git tag [nom-du-tag]` | Crée un tag sur le commit actuel | `git tag v1.0` |
-| **Historique** | | |
-| `git log` | Affiche l'historique des commits | |
-| `git log -p [fichier]` | Affiche l'historique des commits sur un fichier spécifique | `git log -p example.md` |
-| `git blame [fichier]` | Affiche l'historique des modifications, y compris l'auteur sur un fichier spécifique | `git blame example.md` |
-| **Mise à jour & Publication** | | |
-| `git remote -v` | Liste les remote configurés | |
-| `git remote show [remote]` | Affiche les informations de la remote | `git remote show origin` |
-| `git remote add [remote] [url]` | Permet de créer une connexion avec un dépôt distant sous un raccourci | `git remote add origin git@github.com:Simplon-hdf/cheats-sheets-git-flow.git` |
-| `git fetch [remote]` | Récupère toutes les modifications de la remote sans fusionner les changements | `git fetch origin` |
-| `git pull [remote] [branche]` | Récupère les modifications de la branche, et les fusionne | `git pull origin main` |
-| `git push [remote] [branche]` | Pousse les commits d'une branche locale vers un dépôt distant | `git push origin main` |
-| **Fusionner & Rebaser** | | |
-| `git merge [branche]` | Fusionne la branche spécifiée avec la branche actuelle | `git merge main` |
-| `git rebase [branche]` | Réapplique l'historique des commits de la branche actuelle au dessus de la branche spécifiée | `git rebase main` |
-| `git rebase --abort` | Annule le processus de rebase en cours | |
-| `git rebase --continue` | Poursuit le processus de rebase après la résolution des conflits | |
-| `git mergetool` | Ouvre un outil de fusion pour résoudre les conflits | |
-| **Annuler/Rétablir** | | |
-| `git reset --hard HEAD` | Réinitialise l'index et le répertoire de travail au commit référencé par HEAD | `git reset --hard @~1` |
-| `git checkout HEAD [fichier]` | Restaure un fichier spécifique dans le répertoire de travail au dernier commit (HEAD) | `git checkout HEAD example.md` |
+| `git flow feature start [branche]` | Crée une branche de fonctionnalité et la définie comme branche courante | `git flow feature start header` |
+| `git flow feature finish [branche]` | Fusionne la branche de fonctionnalité dans la branche develop et supprime la branche de fonctionnalité | `git flow feature finish header` |
+| `git flow hotfix start [branche]` | Crée une branche de correctif et la définie comme branche courante | `git flow hotfix start fix-api-url` |
+| `git flow hotfix finish [branche]` | Fusionne la branche de correctif dans les branches main et develop, et supprime la branche de correctif | `git flow hotfix finish fix-api-url` |
+| `git flow release start [numéro de version]` | Crée une nouvelle branche de release à partir de la branche develop | `git flow release start 1.0.0` |
+| `git flow release finish [numéro de version]` | Fusionne la branche de release dans la branche main et supprime la branche de release | `git flow release finish 1.0.0` |
+| **Partage de Branche** | | |
+| `git flow feature publish [branche]` | Pousse la branche de fonctionnalité vers le dépôt distant | `git flow feature publish header` |
+| `git flow feature pull [remote] [branche]` | Récupère une branche d'un dépôt distant | `git flow feature pull origin menu` |
