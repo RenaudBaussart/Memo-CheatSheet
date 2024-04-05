@@ -17,6 +17,8 @@
     </body>
 </html>
 ```
+## HTML5 specific tag
+- `<header>`
 ## Common HTML Tags
 
 - `<h1>` - `<h6>`: Headings
