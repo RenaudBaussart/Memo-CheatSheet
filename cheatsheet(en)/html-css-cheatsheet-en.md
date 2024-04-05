@@ -31,6 +31,15 @@
 `<mark></mark>`: Displays a portion of highlighted text with in a page content
 `<nav></nav>`: Navigation links for the user in a document
 `<menuitem></menuitem>`: The specific menu item that a user can raise from a pop up menu
+`<meter></meter>`: Describes the scalar measurement with in a known array
+`<progress></progress>`: Displays the progress of a task usually a progress bar
+`<rp></rp>`: Describes text within the browsers that do not support ruby notations
+`<rt></rt>`: Displays east asian typography character details
+`<ruby></ruby>`: Describes annotations for east asian typography
+`<summary></summary>`: Contains a visible heading for details element
+`<bdi></bdi>`: Helps you format parts of text in a different direction than other text
+`<time></time>`: Identifies the time and date
+`<wbr>`: A line break within the content
 ## Common HTML Tags
 
 - `<h1>` - `<h6>`: Headings 
