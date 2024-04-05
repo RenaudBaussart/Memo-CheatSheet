@@ -26,6 +26,11 @@
 `<section></section>`: Defines a section of a document
 `<details></details>`: Describes additonal information that user can view or hide
 `<dialog></dialog>: A dialog box or a window
+`<figure></figure>: An independent content block featuring images, diagrams or illustrations
+`<figcaption></figcaption>: Caption that describe a figure
+`<mark></mark>`: Displays a portion of highlighted text with in a page content
+`<nav></nav>`: Navigation links for the user in a document
+`<menuitem></menuitem>`: The specific menu item that a user can raise from a pop up menu
 ## Common HTML Tags
 
 - `<h1>` - `<h6>`: Headings 
