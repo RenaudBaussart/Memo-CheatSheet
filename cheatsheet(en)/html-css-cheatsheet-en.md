@@ -21,7 +21,11 @@
 - `<header>`: Defines the header block for a document or a section
 - `<footer>`: Defines the footer block for a document or a section
 - `<main>`: Describes the main content of a document
-- `<article>`:Identifies an article inside a document
+- `<article>`: Identifies an article inside a document
+`<aside></aside>`: Specifies content contained in a document sidebar
+`<section></section>`: Defines a section of a document
+`<details></details>`: Describes additonal information that user can view or hide
+`<dialog></dialog>: A dialog box or a window
 ## Common HTML Tags
 
 - `<h1>` - `<h6>`: Headings 
