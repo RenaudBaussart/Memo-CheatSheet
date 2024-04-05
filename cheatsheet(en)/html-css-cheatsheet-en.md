@@ -18,10 +18,13 @@
 </html>
 ```
 ## HTML5 specific tag
-- `<header>`
+- `<header>`: Defines the header block for a document or a section
+- `<footer>`: Defines the footer block for a document or a section
+- `<main>`: Describes the main content of a document
+- `<article>`:Identifies an article inside a document
 ## Common HTML Tags
 
-- `<h1>` - `<h6>`: Headings
+- `<h1>` - `<h6>`: Headings 
 - `<p>`: Paragraph
 - `<a>`: Anchor (Link)
 - `<img>`: Image
