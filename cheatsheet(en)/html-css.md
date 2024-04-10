@@ -52,12 +52,93 @@
 - `<ol>`: Ordered List
 - `<li>`: List Item
 - `<table>`: Table
-- `<tr>`: Table Row
-- `<td>`: Table Data
+    - `<tr>`: Table Row
+    - `<td>`: Table Data
 - `<form>`: Form
-- `<input>`: Input
-- `<textarea>`: Textarea
+- `<input>`: make a zone were you can put stuff inside
+    - example:  
+        ```
+        <label for="name">Name (4 to 8 characters):</label>
+        <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10" />
+        ```
+    - `<input type="radio">`: collections of radio buttons describing a set of related options (look like of a dropdown in the foctionality)
+        - example:
+            ```
+            <fieldset>
+            <legend>Select a maintenance drone:</legend>
 
+            <div>
+                <input type="radio" id="huey" name="drone" value="huey" checked />
+                <label for="huey">Huey</label>
+            </div>
+
+            <div>
+                <input type="radio" id="dewey" name="drone" value="dewey" />
+                <label for="dewey">Dewey</label>
+            </div>
+
+            <div>
+                <input type="radio" id="louie" name="drone" value="louie" />
+                <label for="louie">Louie</label>
+            </div>
+            </fieldset>
+            ```
+    - `<input type="checkbox">`: same as radio but in a checkbox style
+        - example:
+            ```
+            <fieldset>
+              <legend>Choose your monster's features:</legend>
+
+                <div>
+                    <input type="checkbox" id="scales" name="scales" checked />
+                    <label for="scales">Scales</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="horns" name="horns" />
+                  <label for="horns">Horns</label>
+                </div>
+            </fieldset>
+            ```
+- `<textarea>`: Textarea
+- `<label>`: to make a checkbox
+    - example:
+    ```
+    <label for="cheese">Do you like cheese?</label>
+    <input type="checkbox" name="cheese" id="cheese" />
+    ```
+- `<select>`: use to make a dropdown menu for a answer option
+    - exemple:
+    ```
+        <label for="pet-select">Choose a pet:</label>
+        <select name="pets" id="pet-select">
+          <option value="">--Please choose an option--</option>
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="hamster">Hamster</option>
+          <option value="parrot">Parrot</option>
+          <option value="spider">Spider</option>
+          <option value="goldfish">Goldfish</option>
+        </select>
+
+    ```
+- `<button>`: create a buton element
+    - exemple: `<button type="button">Add to favorites</button>`
+- `<video>` : add a video box
+    - example:
+    ```
+    <video controls width="250">
+        <source src="/media/cc0-videos/flower.webm" type="video/webm" />
+
+        <source src="/media/cc0-videos/flower.mp4" type="video/mp4" />
+
+        Download the
+        <a href="/media/cc0-videos/flower.webm">WEBM</a>
+        or
+        <a href="/media/cc0-videos/flower.mp4">MP4</a>
+        video.
+    </video>
+    ```
 ## Common HTML Attributes
 
 - `id`: Unique identifier
