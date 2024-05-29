@@ -6,8 +6,6 @@ firstElementChild, lastElementChild – first and last element children.
 previousElementSibling, nextElementSibling – neighbor elements.
 
 parentElement – parent element.
-
-
 ## Tables
 The `<table>` element supports (in addition to the given above) these properties:
 
@@ -38,7 +36,6 @@ elem.querySelector - return the first element selected in the scope
 elem.matches - return true of false if the scope matche the selected element
 
 elem.closest - this methode look the the nearest ancestor that match the scope
-
 ## Dom properties
 
 instanceof - return a true if is inherited 
@@ -68,7 +65,6 @@ So here we cover them mainly for completeness, while you can still find them in 
     elem.getElementsByClassName(className) returns elements that have the given CSS class.
 
     document.getElementsByName(name) returns elements with the given name attribute, document-wide. Very rarely used.
-
 ## modifying the document
 
 document.createElement(tag) - Creates a new element node with the given tag
@@ -136,3 +132,19 @@ The classes are:
         HTMLAnchorElement – the class for <a> elements,
         …and so on.
 
+## element size and scroll
+    offsetParent – is the nearest positioned ancestor or td, th, table, body.
+
+    offsetLeft/offsetTop – coordinates relative to the upper-left edge of offsetParent.
+
+    offsetWidth/offsetHeight – “outer” width/height of an element including borders.
+
+    clientLeft/clientTop – the distances from the upper-left outer corner to the upper-left inner (content + padding) corner. For left-to-right OS they are always the 
+    widths of left/top borders. For right-to-left OS the vertical scrollbar is on the left so clientLeft includes its width too.
+
+    clientWidth/clientHeight – the width/height of the content including paddings, but without the scrollbar.
+
+    scrollWidth/scrollHeight – the width/height of the content, just like clientWidth/clientHeight, but also include scrolled-out, invisible part of the element.
+    
+    scrollLeft/scrollTop – width/height of the scrolled out upper part of the element, starting from its upper-left corner.
+   
