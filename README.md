@@ -32,3 +32,4 @@ Distributed under the Apache License. See **[LICENSE](/LICENSE)** for more infor
 ## source
 css:[Adamarsden](https://github.com/AdamMarsden)<br>
 SASS:[fredsiika](https://gist.github.com/fredsiika/2958726da1f94a9bd447f4f7bd03a852)
+web-dom-js:[Lech Rudnicki](https://github.com/infinitycodePL)
