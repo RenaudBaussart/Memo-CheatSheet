@@ -102,7 +102,7 @@ Ligne 1 <br /> Ligne 2
 ### Échappement de caractères
 
 ```
-\*Texte échappé\*
+\* Texte échappé \*
 ```
 
 ## Références
